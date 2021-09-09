@@ -1,0 +1,22 @@
+void main() {
+ 
+  
+  var total =500;
+  var math=94;
+  var english=34;
+  var urdu=90;
+  var pst=98;
+  var chemistry=84;
+  var marksObtained=math+urdu+english+pst+chemistry;
+  var percentage = marksObtained/total*100;
+  
+  print("Marks Sheet");
+  print( "Name : Hasan Ashraf");
+  print("Course : Fullter and Dart Course ");
+  print("S No    Subject   Marks     Obtained \n 1       Math     100        ${math} \n 2      English   100        ${english}   \n 3       Urdu      100        ${urdu} \n 4        PST     100         ${pst}  \n 5    Chemistry   100        ${chemistry}     ");
+ 
+  print(" marksObtained         ${marksObtained}");
+ if(marksObtained >= 400){print("you pass with a grade");}
+  if(marksObtained<= 300){print("you have passed with b grade");}
+  print (" percentage ${percentage}%");
+}
